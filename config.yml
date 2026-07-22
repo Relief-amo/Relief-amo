@@ -1,0 +1,100 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+publish_mode: simple
+locale: "fr"
+
+collections:
+  - name: "site"
+    label: "Site"
+    files:
+      - file: "content.json"
+        label: "Contenu du site"
+        name: "content"
+        fields:
+          - label: "Accroche (Hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+              - {label: "Titre principal", name: "h1", widget: "text"}
+              - {label: "Texte", name: "body", widget: "text"}
+              - {label: "Texte du bouton", name: "btn", widget: "string"}
+              - label: "Statistiques"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - {label: "Chiffre", name: "n", widget: "string"}
+                  - {label: "Libellé", name: "l", widget: "string"}
+
+          - label: "Services"
+            name: "services"
+            widget: "object"
+            fields:
+              - {label: "Titre de la section", name: "title", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "text"}
+              - label: "Liste des services"
+                name: "list"
+                widget: "list"
+                fields:
+                  - {label: "Nom", name: "name", widget: "string"}
+                  - {label: "Description", name: "sub", widget: "string"}
+
+          - label: "Projets"
+            name: "projects"
+            widget: "list"
+            summary: "{{name}}"
+            fields:
+              - {label: "Nom du projet", name: "name", widget: "string"}
+              - label: "Catégorie"
+                name: "cat"
+                widget: "select"
+                options: ["residentiel", "tertiaire", "rehabilitation", "public"]
+              - {label: "Étiquette (catégorie · année)", name: "tag", widget: "string"}
+              - {label: "Détail (résumé sur la vignette)", name: "detail", widget: "string"}
+              - {label: "Image principale", name: "img", widget: "image"}
+              - label: "Galerie (photos supplémentaires)"
+                name: "gallery"
+                widget: "list"
+                required: false
+                field: {label: "Photo", name: "src", widget: "image"}
+              - {label: "Surface", name: "surf", widget: "string"}
+              - {label: "Budget", name: "budget", widget: "string"}
+              - {label: "Durée", name: "duree", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Téléphone", name: "tel", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Zone d'intervention", name: "loc", widget: "string"}
+
+          - label: "Citation"
+            name: "quote"
+            widget: "object"
+            fields:
+              - {label: "Texte", name: "text", widget: "text"}
+              - {label: "Source", name: "src", widget: "string"}
+
+          - label: "Portrait"
+            name: "portrait"
+            widget: "object"
+            fields:
+              - {label: "Légende", name: "cap", widget: "string"}
+              - {label: "Photo", name: "image", widget: "image"}
+
+          - label: "Couleurs"
+            name: "colors"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Fond de page", name: "bg", widget: "color"}
+              - {label: "Texte principal", name: "fg", widget: "color"}
+              - {label: "Texte secondaire", name: "mid", widget: "color"}
+              - {label: "Survol des cases", name: "hover", widget: "color"}
