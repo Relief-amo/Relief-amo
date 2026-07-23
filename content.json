@@ -1,0 +1,142 @@
+{
+  "hero": {
+    "eyebrow": "ASSISTANT À MAÎTRISE D'OUVRAGE",
+    "h1": "J'accompagne les maîtres d'ouvrage de la conception à la livraison de leurs projets immobiliers",
+    "body": "Mon rôle est de sécuriser le pilotage technique, financier et réglementaire pour garantir la qualité et la viabilité de chaque opération.",
+    "btn": "VOIR LES PROJETS",
+    "stats": [
+      {
+        "n": "15+",
+        "l": "ANNÉES D'EXPÉRIENCE"
+      },
+      {
+        "n": "20+",
+        "l": "PROJETS LIVRÉS"
+      },
+      {
+        "n": "",
+        "l": ""
+      }
+    ]
+  },
+  "services": {
+    "title": "Ce que j'apporte",
+    "intro": "Un peu plus de 10 ans passé à structurer des opérations du coté de la maitrise d'ouvrage privée avec un gout prononcé pour la réhabilitation. Puis l'envie de travailler autrement, et de s'engager avec conviction pour des projets qui font sens.Le choix de l'indépendance il y a 5 ans. Une décision qui change la façon dont on s'investit sur chaque mission.",
+    "list": [
+      {
+        "name": "Études pré-opérationnelles",
+        "sub": "Étude d'opportunité - Étude de pré faisabilité"
+      },
+      {
+        "name": "Scénario global, lancement & permis de construire",
+        "sub": "État des lieux & calendrier - Consultation & désignation prestataires - Programmation - Suivi financier -"
+      },
+      {
+        "name": "Conception détaillée, autorisations & marchés",
+        "sub": "Concessionnaires - Autorisations administratives - Dossiers AVP & DCE - Consultation & Contractualisation"
+      },
+      {
+        "name": "Exécution — Réception — Mise en service",
+        "sub": "Assurances & GFA - Gestion administrative - Suivi de l'exécution - Assistance à la réception - Planning & Bilan financier"
+      },
+      {
+        "name": "GPA",
+        "sub": "Centralisation des problèmes de GPA et suivi"
+      },
+      {
+        "name": "Maintenance",
+        "sub": "Assistance à la contractualisation des principaux contrats de maintenance"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "cat": "residentiel",
+      "tag": "Résidentiel · 2023",
+      "name": "Résidence Les Pins — Bordeaux",
+      "detail": "42 logements · 8,5 M€",
+      "img": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=900&q=85",
+      "surf": "3 200 m² SHON",
+      "budget": "8,5 M€ HT",
+      "duree": "24 mois",
+      "desc": "Mission AMO complète pour la construction de 42 logements collectifs en accession à la propriété. Accompagnement du promoteur de la programmation à la livraison, coordination MOE, contrôle du budget et des délais. Certification NF Habitat."
+    },
+    {
+      "cat": "tertiaire",
+      "tag": "Tertiaire · 2022",
+      "name": "Campus tertiaire — Pau",
+      "detail": "2 800 m² · 4,2 M€",
+      "img": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=85",
+      "surf": "2 800 m² SDP",
+      "budget": "4,2 M€ HT",
+      "duree": "18 mois",
+      "desc": "AMO pour la construction d'un immeuble de bureaux en BEFA. Pilotage de la consultation MOE, coordination des études, suivi de chantier hebdomadaire et gestion des interfaces locataires / promoteur."
+    },
+    {
+      "cat": "rehabilitation",
+      "tag": "Réhabilitation · 2022",
+      "name": "Mas du 18ème — Dordogne",
+      "detail": "850 m² · 2,1 M€",
+      "img": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=700&q=85",
+      "surf": "850 m²",
+      "budget": "2,1 M€ HT",
+      "duree": "14 mois",
+      "desc": "Mission AMO & OPC pour la réhabilitation complète d'une maison de maître. Gestion des contraintes patrimoniales (ABF), coordination entre l'architecte du patrimoine, artisans spécialisés et maître d'ouvrage."
+    },
+    {
+      "cat": "public",
+      "tag": "Équipement public · 2021",
+      "name": "Groupe scolaire — Bayonne",
+      "detail": "3 200 m² · 5,8 M€",
+      "img": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=700&q=85",
+      "surf": "3 200 m² SDP",
+      "budget": "5,8 M€ HT",
+      "duree": "28 mois",
+      "desc": "AMO pour la Ville de Bayonne, construction d'un groupe scolaire de 12 classes. Assistance aux marchés publics, suivi des études, pilotage des travaux en site occupé, réception et levée des réserves."
+    },
+    {
+      "cat": "tertiaire",
+      "tag": "Hôtellerie · 2021",
+      "name": "Hôtel Boutique — Biarritz",
+      "detail": "35 chambres · 3,4 M€",
+      "img": "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?w=700&q=85",
+      "surf": "1 650 m²",
+      "budget": "3,4 M€ HT",
+      "duree": "16 mois",
+      "desc": "Mission AMO & OPC pour la transformation d'une villa en hôtel boutique 4 étoiles. Coordination MOE, décorateur et entreprises TCE. Gestion des délais avec ouverture à date fixe."
+    },
+    {
+      "cat": "residentiel",
+      "tag": "Logement social · 2020",
+      "name": "Résidence Les Cèdres — Tarbes",
+      "detail": "68 logements · 7,1 M€",
+      "img": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600&q=85",
+      "surf": "4 800 m² SHON",
+      "budget": "7,1 M€ HT",
+      "duree": "26 mois",
+      "desc": "AMO pour un bailleur social, construction de 68 logements PLAI/PLUS. Accompagnement complet du montage (financement, PC) à la livraison. Certification Qualibail."
+    }
+  ],
+  "nav": {
+    "brand": ""
+  },
+  "contact": {
+    "tel": "+33 6 00 00 00 00",
+    "email": "contact@exemple.fr",
+    "loc": "Nouvelle-Aquitaine & alentours"
+  },
+  "quote": {
+    "text": "\"La maîtrise d'un projet de construction commence bien avant le premier coup de pelle — elle se construit dans la clarté du programme et la rigueur du pilotage.\"",
+    "src": "— PHILOSOPHIE DE MISSION"
+  },
+  "portrait": {
+    "cap": "À PRÉCISER — VOTRE NOM, TITRE",
+    "image": "images/portrait.jpg"
+  },
+  "colors": {
+    "bg": "#ffffff",
+    "fg": "#111110",
+    "mid": "#6B6860",
+    "hover": "#EDECEA"
+  }
+}
